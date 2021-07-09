@@ -9,3 +9,5 @@
 /cloud-provider-payment8003/target/
 /*.iml
 /.idea
+/*/src/main/resources/rebel.xml
+**/target
