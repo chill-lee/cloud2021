@@ -1,4 +1,4 @@
-package org.lee.springcloud.controller;
+package springcloud.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -31,5 +31,4 @@ public class ConfigClientController {
     public String getConfigInfo() {
         return "serverPort: "+serverPort+"\t\n\n configInfo: "+configInfo;
     }
-
 }
