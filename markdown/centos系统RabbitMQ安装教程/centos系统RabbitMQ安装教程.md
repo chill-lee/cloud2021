@@ -36,7 +36,7 @@ yum install -y erlang
 erl
 ```
 
-![image-20210727111852435](.\image\image-20210727111852435.png)
+![image-20210727111852435](./image/image-20210727111852435.png)
 
 ## 3、安装RabbitMQ
 
@@ -94,7 +94,7 @@ systemctl restart rabbitmq-server
 
 ### 3.8、登录用户admin
 
-![image-20210727113205547](.\image\image-20210727113205547.png)
+![image-20210727113205547](./image/image-20210727113205547.png)
 
 注意：注意：192.168.10.88是安装RabbitMQ的服务器IP地址。如果访问不了，确认是否开启端口5672和15672。开启方法参考：[Centos7防火墙常用基本命名](https://blog.csdn.net/weixin_40584261/article/details/106826961)
 
