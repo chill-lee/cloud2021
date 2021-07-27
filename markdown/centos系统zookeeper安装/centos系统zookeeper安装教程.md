@@ -1,6 +1,8 @@
 # centos系统zookeeper安装教程
 ## 1、安装前准备
+
 ![image-20210709144009112](.\image\image-20210709144009112.png)
+
 安装前确认已经安装过jdk，且jdk不低于1.8 u211版本
 ## 2、官网下载
 官网地址：https://zookeeper.apache.org/
