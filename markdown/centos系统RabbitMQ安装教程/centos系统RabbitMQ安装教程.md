@@ -12,9 +12,7 @@
 
 ### 2.1、[erlang和rabbitmq的版本对应关系](https://www.rabbitmq.com/which-erlang.html)
 
-<img src=".\image\image-20210727111410762.png" style="zoom:67%;" />
-
-<img .\image\image-20210727111410762.png" alt="image-20210727111410762" style="zoom:75%;" />
+![image-20210727111410762](./image/image-20210727111410762.png)
 
 ### 2.2、通过rpm安装erlang
 
@@ -55,7 +53,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 
 ### 3.3、下载RabbitMQ安装包
 
-<img src=".\image\image-20210727112358018.png" alt="image-20210727112358018" style="zoom:67%;" />
+![image-20210727112358018](./image/image-20210727112358018.png)
 
 ### 3.4、下载成功后，上传到服务器，然后使用命名安装
 
