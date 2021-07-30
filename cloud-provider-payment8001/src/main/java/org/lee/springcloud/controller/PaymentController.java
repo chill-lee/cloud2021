@@ -68,8 +68,7 @@ public class PaymentController {
     }
 
     @GetMapping(value = "/payment/lb")
-    public String getPaymentLB()
-    {
+    public String getPaymentLB() {
         return serverPort;
     }
 
@@ -81,5 +80,11 @@ public class PaymentController {
             e.printStackTrace();
         }
         return serverPort;
+    }
+
+    @GetMapping("/payment/sleuth")
+    String home() {
+        log.info("Hello sleuth!" + serverPort);
+        return "Hello sleuth!";
     }
 }
